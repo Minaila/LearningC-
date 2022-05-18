@@ -17,6 +17,7 @@ namespace CSharpBasic
         //4 - write a method that takes a message and just prints that message to the console. Example: Duhamel --> in the console the word Duhamel will appear
 
         //Solution for 1)
+
         public int Multiply(int a, int b)
         {
             return a * b; 
