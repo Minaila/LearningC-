@@ -29,9 +29,9 @@ namespace CSharpBasic
             microsoftPage.Open(sites);
             var isCompliant = microsoftPage.IsUrlCompliant(links);
             fileManager.Write(resultPath, isCompliant);
+            //TODO - call the method to close the browser
            
-           // Console.Write(isCompliant);
-            
+
             var suma = microsoftPage.Add(5, 8);
 
             Console.ReadLine();
