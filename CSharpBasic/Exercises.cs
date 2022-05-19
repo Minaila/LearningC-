@@ -21,8 +21,20 @@ namespace CSharpBasic
         public int Multiply(int a, int b)
         {
             return a * b; 
-        }
 
+        }
+        public int Numbers(int x, int y, int z)
+        {
+            return Math.Max(Math.Max(x, y), z);
+        }
+        public string Sir(string c, string d, string e, string f)
+        {
+            return f + d + e + c;
+        }
+        public void Print(string txt)
+        {
+            Console.WriteLine(txt); 
+        }
     }
 
    
