@@ -41,6 +41,10 @@ namespace CSharpBasic
             Console.WriteLine(maxNumber);
             Console.WriteLine(inmultire);
             var suma = microsoftPage.Add(5, 8);
+           var isWindowOpen =  exercises.OpenCarWindow(15);
+            Console.WriteLine(isWindowOpen);
+           // microsoftPage.CloseChrome();
+            microsoftPage.Driver.Close();
 
             Console.ReadLine();
         }

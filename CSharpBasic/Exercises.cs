@@ -48,6 +48,24 @@ namespace CSharpBasic
         {
             Console.WriteLine(txt); 
         }
+        public bool OpenCarWindow(int speed)
+        {
+            if(speed < 10)
+            {
+                Console.WriteLine("the window can be opened");
+                return true;
+            }
+            if(speed == 10)
+            {
+                Console.WriteLine("the window can be opened, but if you go faster it won't open");
+                return true;
+            } 
+            else             
+            {
+                Console.WriteLine("window can not be opened");
+                return false;
+            }
+        }
     }
 
    

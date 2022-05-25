@@ -40,6 +40,7 @@ namespace CSharpBasic
         public void CloseChrome()
         {
             //TODO
+            Driver.Close();
         }
         public int Add(int x, int y)
         {
