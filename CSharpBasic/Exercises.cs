@@ -29,6 +29,18 @@ namespace CSharpBasic
             // if is between 15 and 30 it will show the message "It is sunny but take a coat with you"
             // below 15 - "It's not sunny today outside"
 
+
+
+
+        // PRIMA APLICATIE
+        // Name: PCCleaner
+        // Features: 
+            //1) Sa ii poti da ca input un folder de pe calculator unde sa faca curat si o data (daca nu ii dai data atunci by default va lua data de azi)
+            //2) Programul va sterge automat orice fisier e in folder care a fost adaugat / modificat inainte de data pe care ai bagat-o la pasul 1)
+            //3) Inainte sa stearga tot sa te intrebe daca vrei sa faca un backup la fisiere - in caz ca zici ca vrei backup el va copia fisierele in alt folder iar 
+            //apoi va curata folderul respectiv. Daca nu vrei backup va executa efectiv pasul 2)
+
+
         //Solution for 1)
 
         public int Multiply(int a, int b)
