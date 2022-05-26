@@ -17,28 +17,32 @@ namespace CSharpBasic
         //4 - write a method that takes a message and just prints that message to the console. Example: Duhamel --> in the console the word Duhamel will appear
 
         //5 - write a method called OpenCarWindow that takes the speed of the car as an INT Parameter and returns true or false whether it can open the window:
-            // speed < 10 --> it can open the window
-            // speed = 10 ---> it can open the window but in adition to that it show you the message "If you go faster I wont be able to open it"
-            // speed > 10 --> it cant open the window 
+        // speed < 10 --> it can open the window
+        // speed = 10 ---> it can open the window but in adition to that it show you the message "If you go faster I wont be able to open it"
+        // speed > 10 --> it cant open the window 
 
         //6 -  write a program in C# Sharp to create a function to input a string and count number of spaces are in the string
-            //ex: This is a test string. --> will return value 4 (because there are 4 spaces)
+        //ex: This is a test string. --> will return value 4 (because there are 4 spaces)
 
         //7 - write a method called TellMeIfItsSunnyOutsiode that will take an int parameter as the temperature and:
-            // if the temperature is greater than 30 it will show the message "Yes, it's hot outside" to the console
-            // if is between 15 and 30 it will show the message "It is sunny but take a coat with you"
-            // below 15 - "It's not sunny today outside"
-
+        // if the temperature is greater than 30 it will show the message "Yes, it's hot outside" to the console
+        // if is between 15 and 30 it will show the message "It is sunny but take a coat with you"
+        // below 15 - "It's not sunny today outside"
 
 
 
         // PRIMA APLICATIE
+        // Name: ChromeKiller
+        // Features: 
+        //1) Odata rulata aplicatia sa inchida toate procesele de chrome (toate taburile) automat.  PS: Nu are treaba cu selenium
+
+        // A DOUA APLICATIE
         // Name: PCCleaner
         // Features: 
-            //1) Sa ii poti da ca input un folder de pe calculator unde sa faca curat si o data (daca nu ii dai data atunci by default va lua data de azi)
-            //2) Programul va sterge automat orice fisier e in folder care a fost adaugat / modificat inainte de data pe care ai bagat-o la pasul 1)
-            //3) Inainte sa stearga tot sa te intrebe daca vrei sa faca un backup la fisiere - in caz ca zici ca vrei backup el va copia fisierele in alt folder iar 
-            //apoi va curata folderul respectiv. Daca nu vrei backup va executa efectiv pasul 2)
+        //1) Sa ii poti da ca input un folder de pe calculator unde sa faca curat si o data (daca nu ii dai data atunci by default va lua data de azi)
+        //2) Programul va sterge automat orice fisier e in folder care a fost adaugat / modificat inainte de data pe care ai bagat-o la pasul 1)
+        //3) Inainte sa stearga tot sa te intrebe daca vrei sa faca un backup la fisiere - in caz ca zici ca vrei backup el va copia fisierele in alt folder iar 
+        //apoi va curata folderul respectiv. Daca nu vrei backup va executa efectiv pasul 2)
 
 
         //Solution for 1)
